@@ -1,0 +1,28 @@
+div {
+        text-align: right;
+}
+img {
+        padding: 10%;
+        border: 15px;
+        margin: 20%;
+}
+.centrada {
+        text-align: center;
+        color: white;
+}
+.azul_izquierda {
+        background-color: blue;
+        text-align: left;
+}
+.rojo {
+        background-color:red;
+}
+.menu {
+        text-align: left;
+        background-color: black;
+        color: red;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        font-size: 1.5em;
+}
