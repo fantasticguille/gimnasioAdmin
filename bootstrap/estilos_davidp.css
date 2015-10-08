@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+	#branding {
+		font-family:Roboto, sans-serif;
+		font-weight: 300;
+		font-style:italic;
+		font-size:2em;
+		color:#333;
+		display:inline;
+		padding-top:8px;
+		float:left;
+	}
+	
+	a#link_branding {
+		color:#333;
+		font-weight:300;
+	}
+	
+	a#link_branding:visited {
+		color:#333 !important;
+		font-weight:300 !important;
+	}
+	
+	a#link_branding:hover {
+		color:#999 !important;
+		font-weight:300 !important;
+	}
+	
+	a#link_branding:active {
+		color:#999 !important;
+		font-weight:300 !important;
+	}
+	
+	#navigation {
+		background-color:#EEE;
+		border-bottom: 0.2em solid #ccc;
+	}
+	
+	#menu {
+		display:none !important;
+	}
+	
+	ul#menu {
+		padding-left:20px;
+		padding-top:20px;
+		float:left;
+		width:55%;
+		display:inline;
+	}
+	
+	ul#menu li {
+		list-style:none;
+		display:inline;
+		padding-right:1.5%;
+	}
+	
+	.altura_img {
+		height:auto;
+	}
+	
+	.img_descripcion {
+		padding-top:25px;
+		max-width:100%;
+		max-height:100%;
+	}
+		
+	a {
+		color:#333;
+		text-decoration:none !important;
+	}
+	
+	a:hover {
+		text-decoration:none !important;
+		font-weight:bold !important;
+		color:#09F !important;
+	}
+	
+	a:visited {
+		color:#333;
+		text-decoration:none !important;
+	}
+	
+	a:active {
+		color:#09F;
+		text-decoration:none !important;
+	}
+	
+	#footer {
+		text-align:center;
+		font-family:Roboto, sans-serif;
+		font-size:1em;
+		color:#FFF;
+	}
+	
+	h1 {
+		font-size:2em;
+	}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.altura_img {
+		height:500px;
+	}
+	
+	#menu {
+		display:block !important;
+	}
+	
+	#icon_menu {
+		display:none;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+}
