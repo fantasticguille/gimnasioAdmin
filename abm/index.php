@@ -1,5 +1,8 @@
+<ul>
+	<li><a href="?tabla=niveles">Ver Niveles</a></li>
+	<li><a href="?accion=agregar&tabla=niveles">Agregar Nivel</a></li>
+</ul>
 <?php
-
 $enlace = mysqli_connect('localhost','root','','gym');
 
 if (!$enlace) {
@@ -9,10 +12,11 @@ if (!$enlace) {
     exit;
 }
 
-if($_GET['accion']=='editar' !! $_GET['accion']=='agregar') {
+if(isset($_GET['accion']) && ($_GET['accion']=='editar' || $_GET['accion']=='agregar')) {
 	include 'form.php';
 } else {
 	include 'list.php';
 }
 
+mysqli_close($enlace);
 ?>
