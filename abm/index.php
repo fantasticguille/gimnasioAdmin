@@ -12,7 +12,7 @@ if (!$enlace) {
     exit;
 }
 
-if(isset($_GET['accion']) && ($_GET['accion']=='editar' || $_GET['accion']=='agregar')) {
+if(isset($_GET['accion']) && ($_GET['accion']=='editar' || $_GET['accion']=='agregar' || $_GET['accion']=='guardar')) {
 	include 'form.php';
 } else {
 	include 'list.php';
